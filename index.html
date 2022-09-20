@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top">
+            <div class="expression">0</div>
+            <div class="answer">0</div>
+        </div>
+        <div class="bottom">
+            <div class="buttons">
+                <div class="buttons__item blue" data-clear>AC</div>
+                <div class="buttons__item" data-delete>
+                    <img src="img/delete.svg" alt="">
+                </div>
+                <div class="buttons__item blue symbol">()</div>
+                <div class="buttons__item blue symbol">/</div>
+                <div class="buttons__item symbol">7</div>
+                <div class="buttons__item symbol">8</div>
+                <div class="buttons__item symbol">9</div>
+                <div class="buttons__item" data-multiply>
+                    <img src="img/multiply.svg" alt="">
+                </div>
+                <div class="buttons__item symbol">4</div>
+                <div class="buttons__item symbol">5</div>
+                <div class="buttons__item symbol">6</div>
+                <div class="buttons__item blue symbol">-</div>
+                <div class="buttons__item symbol">1</div>
+                <div class="buttons__item symbol">2</div>
+                <div class="buttons__item symbol">3</div>
+                <div class="buttons__item blue symbol">+</div>
+                <div class="buttons__item settings-icon">
+                    <img src="img/settings.svg" alt="">
+                </div>
+                <div class="buttons__item symbol">0</div>
+                <div class="buttons__item symbol">.</div>
+                <div class="buttons__item light get">=</div>
+            </div>
+            <div class="settings">
+                <form class="settings__form form-settings">
+                    <div class="form-settings__item">
+                        <input type="checkbox" name="" id="dark-theme">
+                        <label for="dark-theme">Dark Theme</label>
+                    </div>
+                    <div class="form-settings__item">
+                        <input type="checkbox" name="" id="is-eval">
+                        <label for="is-eval">Use eval( )</label>
+                    </div>
+                    <div class="form-settings__item">
+                        <input type="checkbox" checked name="" id="is-rpn">
+                        <label for="is-rpn">Use reverse polish notation</label>
+                    </div>
+                </form>
+                <div class="settings__close">
+                    <button>Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
