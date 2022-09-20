@@ -1,6 +1,6 @@
 # Calculator on Electron
 
-[![N|Solid](img/preview.png)]
+[(img/preview.png)]
 
 - Dark Mode
 - Use eval()
